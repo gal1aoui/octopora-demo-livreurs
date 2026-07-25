@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kit d'interface mobile</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/maquettes/kit-interface-mobile.css">
+</head>
+<body>
+
+  <header class="app-bar">Kit d'interface mobile</header>
+  <main class="kit">
+    <section>
+      <h2>Boutons</h2>
+      <button class="big-button" type="button">Marquer comme livré</button>
+      <button class="big-button kit-secondary" type="button">Signaler un problème</button>
+      <button class="big-button kit-danger" type="button">Livraison impossible</button>
+    </section>
+    <section>
+      <h2>Saisie</h2>
+      <label class="kit-field">Code de connexion
+        <input inputmode="numeric" autocomplete="one-time-code" placeholder="000 000">
+      </label>
+    </section>
+    <section>
+      <h2>Statuts</h2>
+      <p><span class="kit-chip kit-ok">Livré</span> <span class="kit-chip kit-todo">À livrer</span> <span class="kit-chip kit-late">En retard</span></p>
+      <p class="muted">Contraste de 7:1 minimum pour rester lisible en plein soleil. Cibles tactiles de 56 px.</p>
+    </section>
+  </main>
+</body>
+</html>
