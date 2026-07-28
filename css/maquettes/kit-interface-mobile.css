@@ -1,0 +1,46 @@
+.kit h2 {
+  margin: 24px 0 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.kit-secondary {
+  background: #fff;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.kit-danger {
+  background: var(--color-danger);
+}
+
+.kit-field {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.kit-field input {
+  display: block;
+  width: 100%;
+  min-height: 56px;
+  margin-top: 8px;
+  padding: 0 16px;
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  font-size: 1.25rem;
+}
+
+.kit-chip {
+  display: inline-block;
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.kit-ok { background: var(--color-success); }
+.kit-todo { background: var(--color-primary); }
+.kit-late { background: var(--color-danger); }
