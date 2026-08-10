@@ -1,0 +1,29 @@
+.fiche h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fiche-card {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.fiche-card h2 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+.fiche-card p {
+  margin: 0 0 4px;
+}
+
+.fiche-nav {
+  background: #1d4ed8;
+}
+
+.fiche-done {
+  background: var(--color-success);
+}
