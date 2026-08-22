@@ -1,0 +1,38 @@
+.legend-map {
+  position: relative;
+  height: 50vh;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e5e7eb, #f3f4f6);
+}
+
+.marker {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+}
+
+.legend-map .marker {
+  position: absolute;
+  margin: -20px 0 0 -20px;
+}
+
+.marker-done { background: var(--color-success); }
+.marker-todo { background: var(--color-primary); }
+.marker-late { background: var(--color-danger); border-radius: 8px; }
+
+.legend {
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+}

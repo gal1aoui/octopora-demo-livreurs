@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Marqueurs et légende de la carte</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/maquettes/marqueurs-carte.css">
+</head>
+<body>
+
+  <header class="app-bar">Carte de la tournée</header>
+  <main>
+    <div class="legend-map" role="img" aria-label="Carte avec des arrêts faits, à faire et en retard">
+      <span class="marker marker-done" style="left:20%;top:25%">1</span>
+      <span class="marker marker-done" style="left:38%;top:48%">2</span>
+      <span class="marker marker-late" style="left:60%;top:35%">3</span>
+      <span class="marker marker-todo" style="left:75%;top:68%">4</span>
+    </div>
+    <ul class="legend">
+      <li><span class="marker marker-done">&#10003;</span> Fait</li>
+      <li><span class="marker marker-todo">&#8226;</span> À faire</li>
+      <li><span class="marker marker-late">!</span> En retard (créneau dépassé)</li>
+    </ul>
+    <p class="muted">Chaque état a une couleur et un symbole différents, pour rester lisible sans distinguer les couleurs.</p>
+  </main>
+</body>
+</html>
