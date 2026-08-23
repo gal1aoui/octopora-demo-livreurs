@@ -1,0 +1,30 @@
+.map {
+  position: relative;
+  height: 60vh;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: #f3f4f6;
+}
+
+.pin {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin: -18px 0 0 -18px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.pin[data-status="livre"] {
+  background: var(--color-success);
+}
+
+a.big-button {
+  padding-top: 16px;
+  text-align: center;
+  text-decoration: none;
+}
