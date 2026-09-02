@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Déclarer une livraison impossible</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/maquettes/livraison-impossible.css">
+</head>
+<body>
+
+  <header class="app-bar">Livraison impossible</header>
+  <main>
+    <p>Arrêt 3 : <strong>Mme Haddad</strong></p>
+    <form class="motifs">
+      <fieldset>
+        <legend>Pourquoi ?</legend>
+        <label class="motif"><input type="radio" name="motif" checked> Destinataire absent</label>
+        <label class="motif"><input type="radio" name="motif"> Adresse introuvable</label>
+        <label class="motif"><input type="radio" name="motif"> Colis refusé</label>
+        <label class="motif"><input type="radio" name="motif"> Autre</label>
+      </fieldset>
+      <fieldset>
+        <legend>Reprogrammer</legend>
+        <label class="motif"><input type="radio" name="quand" checked> Demain matin</label>
+        <label class="motif"><input type="radio" name="quand"> Demain après-midi</label>
+        <label class="motif"><input type="radio" name="quand"> Plus tard, avec le superviseur</label>
+      </fieldset>
+      <button class="big-button" type="button">Confirmer et prévenir le destinataire</button>
+    </form>
+  </main>
+</body>
+</html>
