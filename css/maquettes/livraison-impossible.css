@@ -1,0 +1,26 @@
+.motifs fieldset {
+  margin: 16px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.motifs legend {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.motif {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+  margin-bottom: 8px;
+  padding: 0 16px;
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.motif input {
+  width: 24px;
+  height: 24px;
+}
