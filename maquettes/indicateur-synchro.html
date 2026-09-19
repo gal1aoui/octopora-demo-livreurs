@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Indicateur de synchronisation</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/maquettes/indicateur-synchro.css">
+</head>
+<body>
+
+  <header class="app-bar">Ma tournée</header>
+  <main>
+    <div class="sync sync-pending" role="status">
+      <strong>3 actions à envoyer</strong>
+      <span>Dernier envoi réussi à 09:41</span>
+    </div>
+    <div class="sync sync-ok" role="status">
+      <strong>Tout est envoyé</strong>
+      <span>Dernier envoi réussi à 10:02</span>
+    </div>
+    <div class="sync sync-offline" role="status">
+      <strong>Hors connexion</strong>
+      <span>Vos actions sont gardées sur le téléphone.</span>
+    </div>
+    <button class="big-button" type="button">Envoyer maintenant</button>
+  </main>
+</body>
+</html>
