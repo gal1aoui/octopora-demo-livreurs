@@ -1,0 +1,48 @@
+.cash-summary {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 8px 16px;
+}
+
+.cash-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cash-line:last-child {
+  border-bottom: 0;
+}
+
+.cash-total {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.cash-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cash-list li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 12px;
+  min-height: 56px;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cash-count input {
+  display: block;
+  width: 100%;
+  min-height: 56px;
+  margin-top: 8px;
+  font-size: 1.25rem;
+}
+
+.cash-close {
+  min-height: 64px;
+}
