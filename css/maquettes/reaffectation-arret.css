@@ -1,0 +1,37 @@
+.reassign-stop {
+  display: grid;
+  gap: 4px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.reassign-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reassign-list li {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.reassign-list .big-button {
+  margin-top: 0;
+}
+
+.reassign-note {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.reassign-cancel {
+  background: #fff;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
