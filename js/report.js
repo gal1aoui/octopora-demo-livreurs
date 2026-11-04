@@ -1,4 +1,9 @@
-const HOUR = new Intl.DateTimeFormat("fr-FR", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" });
+// Les horodatages arrivent en UTC ; le rapport se lit à l'heure de Tunis (UTC+1).
+const HOUR = new Intl.DateTimeFormat("fr-FR", {
+  hour: "2-digit",
+  minute: "2-digit",
+  timeZone: "Africa/Tunis",
+});
 
 const SAMPLE = [
   { livreur: "Karim B.", arrets: 4, livres: 2, echecs: 0, premiere_livraison: "2026-10-30T07:42:00Z", derniere_livraison: "2026-10-30T08:15:00Z" },
