@@ -1,0 +1,26 @@
+.glove-current,
+.glove-proposal {
+  display: grid;
+  gap: 8px;
+}
+
+.glove-proposal {
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.glove-proposal .big-button {
+  min-height: 72px;
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.glove-main {
+  grid-column: 1 / -1;
+}
+
+.glove-secondary {
+  background: #fff;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
